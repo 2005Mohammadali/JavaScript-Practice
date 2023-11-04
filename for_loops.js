@@ -1,4 +1,3 @@
-// https://contactmentor.com/js-loop-exercises-solutions/
 
 //Task - print numbers from 1 to 10
 for(let i = 1; i<11; i++){
@@ -108,22 +107,6 @@ for(let i = 2; i < n; i++){
     }
 }
 
-
-//Task - print prime numbers
-let n = Number.parseInt(prompt("Enter any number"))
-for(let i = 2; i <= n; i++){
-    let isPrime = true
-    for(let j = 1; j <= i; j++){
-        if(i % j == 0){
-            isPrime = false
-            break
-        }
-    }
-    if(isPrime == true){
-        console.log(i)
-    } 
-}
-
 //Task - Factorial of given number
 n = Number.parseInt(prompt("Enter any number"))
 fact = 1    
@@ -133,4 +116,3 @@ for(let i = 1; i <= n; i++){
 console.log(fact)
 
 
-//Task - convert decimal no. into binary 
